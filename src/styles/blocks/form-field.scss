@@ -8,6 +8,14 @@
   line-height: 150%;
   color: $white;
 
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus {
+    border-bottom-color: $dark-grey;
+    -webkit-text-fill-color: $white;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+
   &--textarea {
     font-family: "Mark-Regular", sans-serif;
     font-size: 16px;
